@@ -13,7 +13,7 @@ body {
 }
 
 .mainbody {
-    width: 500px;
+    width: auto;
     background-color: white;
     box-shadow: 10px 10px 25px lightslategray;
     margin: auto;
