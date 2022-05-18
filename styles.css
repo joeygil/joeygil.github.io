@@ -1,12 +1,10 @@
 * {
-    margin: 0;
     box-sizing: border-box;
 
 }
 
 body {
     background-color: #F8EFEB;
-    text-align: center;
     text-transform: lowercase;
     font-family: 'Source Code Pro', monospace;
     list-style-type: none;
@@ -16,18 +14,18 @@ body {
     width: auto;
     background-color: white;
     box-shadow: 10px 10px 25px lightslategray;
-    margin: auto;
-    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    
 }
 
 .mainbody a {
     color: black;
-    text-align: center;
 
 }
 
 
-li {
+.mainbody li {
     text-align: center;
     text-transform: lowercase;
     font-family: 'Source Code Pro', monospace;
@@ -49,7 +47,10 @@ h2 {
 }
 
 #funnygif {
-    margin: 30px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+
 }
 
 #social a {
