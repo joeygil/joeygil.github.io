@@ -21,16 +21,19 @@ body {
 
 .mainbody a {
     color: black;
+   
 
 }
 
 
-.mainbody li {
-    text-align: center;
-    text-transform: lowercase;
+ul {
     font-family: 'Source Code Pro', monospace;
     list-style-type: none;
+    display: block;
+    padding-left: 0;
     line-height: 2;
+    text-align: center;
+
 }
 
 h1 {
@@ -46,13 +49,18 @@ h2 {
     margin: 20px;
 }
 
-#funnygif {
-    margin: auto;
+#funnygif img {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
-    text-align: center;
+    width: 300px;
+    display: block;
+  
 
 }
 
 #social a {
     color: black;
+    text-align: center;
+    display: block;
 }
