@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F8EFEB;
+    text-align: center;
+    text-transform: lowercase;
+    font-family: 'Source Code Pro', monospace;
+    list-style-type: none;
+}
+
+.mainbody {
+    width: 500px;
+    background-color: white;
+    box-shadow: 10px 10px 25px lightslategray;
+    margin: auto;
+    text-align: center;
+}
+
+.mainbody a {
+    color: black;
+    text-align: center;
+
+}
+
+
+li {
+    text-align: center;
+    text-transform: lowercase;
+    font-family: 'Source Code Pro', monospace;
+    list-style-type: none;
+    line-height: 2;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: 20px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: 20px;
+}
+
+#funnygif {
+    margin: 30px;
+}
+
+#social a {
+    color: black;
+}
