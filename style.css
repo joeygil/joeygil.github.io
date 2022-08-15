@@ -1,0 +1,191 @@
+body {
+    box-sizing: border-box;
+    background-color: white;
+    color: #976D9C;
+    text-align: center;
+    font-family: "Cairo";
+    margin-left: 0;
+}
+
+#personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url(/images/me.PNG);
+    object-fit: cover;
+    animation-name: slidein;
+    animation-duration: 3s;
+    
+}
+
+#me:hover {
+    background-image: url(images/mepink.png)
+    
+}
+
+#contact {
+    padding: 1rem;
+}
+
+#experience-with {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #FCE6FF;
+
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+@keyframes slidein {
+    from {
+        top: -300px;
+        opacity: 0;
+    }
+
+    to {
+        top: 50%;
+        opacity: 1;
+    }
+}
+
+#experience-with img {
+    width: 75px;
+    padding: 1rem;
+}
+
+#work-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+#work-gallery img {
+    width: 300px;
+}
+
+#button-press {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #FCE6FF;
+    border-radius: 2rem;
+}
+
+#button-press:hover {
+    background-color: #FCE6FF;
+    cursor: pointer;
+}
+
+#emma {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #FCE6FF;
+    border-radius: 2rem;
+}
+
+#emma:hover {
+    background-color: #FCE6FF;
+    cursor: pointer;
+}
+
+#todoapp {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #FCE6FF;
+    border-radius: 2rem;
+}
+
+#todoapp:hover {
+    background-color: #FCE6FF;
+    
+    cursor: pointer;
+}
+
+#anti-social {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #FCE6FF;
+    border-radius: 2rem;
+}
+
+#anti-social:hover {
+    background-color: #FCE6FF;
+    
+    cursor: pointer;
+}
+
+#cheat-sheet {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #FCE6FF;
+    border-radius: 2rem;
+}
+
+#cheat-sheet:hover {
+    background-color: #FCE6FF;
+    cursor: pointer;
+}
+
+#preview-columns {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #FCE6FF;
+    border-radius: 2rem;
+}
+
+#preview-columns:hover {
+    background-color: #FCE6FF;
+    cursor: pointer;
+}
+
+#coming-soon {
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #FCE6FF;
+    border-radius: 2rem;
+}
+
+#coming-soon:hover {
+    background-color: #FCE6FF;
+    cursor: pointer;
+}
+
+h1, h2, h3 {
+    font-family: 'Courier Prime';
+    color: #7B9C5D;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 2rem;
+}
+
+#socials img {
+    width: 50px;
+    padding: 10px;
+}
+
+#contact-form {
+    margin: 10px;
+}
